@@ -1,0 +1,66 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "employees": [
+    {
+      "firstName": "Mokoto",
+      "lastName": "Shinkai",
+      "email": "animator@gmail.com",
+      "dob": "1996-02-08T18:30:00.000Z",
+      "education": "MTech",
+      "gender": "male",
+      "id": 1
+    },
+    {
+      "firstName": "Uzumaki",
+      "lastName": "Naruto",
+      "email": "hokage@gmail.com",
+      "dob": "1986-10-09T18:30:00.000Z",
+      "education": "Intermediate",
+      "gender": "male",
+      "id": 2
+    },
+    {
+      "firstName": "Monkey D.",
+      "lastName": "Luffy",
+      "email": "onePiece@gmail.com",
+      "dob": "2001-03-04T18:30:00.000Z",
+      "education": "BTech",
+      "gender": "male",
+      "id": 3
+    },
+    {
+      "firstName": "Kamado",
+      "lastName": "Tanjiro",
+      "email": "demonSlayerCops@gmail.com",
+      "dob": "2010-07-13T18:30:00.000Z",
+      "education": "Intermediate",
+      "gender": "male",
+      "id": 4
+    },
+    {
+      "firstName": "Hashibira",
+      "lastName": "Inosuke",
+      "email": "beastDemonSlayer@gmail.com",
+      "dob": "2017-02-01T18:30:00.000Z",
+      "education": "Intermediate",
+      "gender": "male",
+      "id": 5
+    }
+  ]
+}
