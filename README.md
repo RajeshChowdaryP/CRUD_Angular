@@ -1,27 +1,37 @@
-# Project01
+#Check this..
+# Angular Material UI with JSON Server Backend, Routing, and Reactive Forms
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.1.
+This repository contains an Angular application built using Angular Material UI components. It integrates with a JSON Server backend to implement CRUD operations.
 
-## Development server
+## Features
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- Angular Material UI components for modern and responsive user interfaces.
+- JSON Server backend for simulating REST API endpoints.
+- CRUD operations (Create, Read, Update, Delete) implemented with Angular HttpClient.
+- Angular routing for navigating between different views/pages within the application.
+- Reactive forms for managing dynamic forms, validation, and user input.
 
-## Code scaffolding
+## Dependencies
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- Node.js (v14 or higher)
+- Angular CLI
+- JSON Server
 
-## Build
+## Usage
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+### Setup
+1. Clone the repository: `git clone https://github.com/username/repository.git`
+2. Install dependencies: `npm install`
 
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+### Running the Application
+1. Start JSON Server: `json-server --watch db.json`
+2. Start Angular development server: `ng serve`
+3. Open browser and navigate to `http://localhost:4200`
+4. **Using the Application**
+   - Explore different views/pages using Angular routing.
+   - Interact with Angular Material UI components for data input, display, and interaction.
+   - Test CRUD operations:
+     - Create new items.
+     - Read and display data fetched from JSON Server.
+     - Update existing items.
+     - Delete items.
